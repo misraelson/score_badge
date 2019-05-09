@@ -1,0 +1,31 @@
+.accuracy-badge {
+  display: flex;
+  justify-content: center;
+}
+
+svg {
+  height: 400px;
+  width: 400px;
+}
+circle {
+  stroke-width: 6px;
+  fill: transparent;
+  transition: stroke-dashoffset 2.55s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+#gray{
+  stroke: #AAA;
+}
+#amount-blue{
+  stroke: blue;
+}
+#ex-date-red{
+  stroke: red;
+}
+#record-date-yellow{
+  stroke: yellow;
+}
+#pay-date-green{
+  stroke: green;
+}
