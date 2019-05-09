@@ -10,6 +10,8 @@ window.addEventListener('load', drawBadge, false);
     const recordDateCircle = document.querySelector('#record-date-yellow');
     const payDateCircle = document.querySelector('#pay-date-green');
 
+    const percentScore = document.querySelector('#percentage');
+
     const radius = amountCircle.r.baseVal.value;
     const circumference = radius * 2 * Math.PI;
     const amountWeight = 45;
@@ -21,6 +23,9 @@ window.addEventListener('load', drawBadge, false);
     let exScorePercent = 80;
     let recScorePercent = 75;
     let payScorePercent = 90;
+    
+    let dailyScore = 80;
+    percentScore.textContent = dailyScore + "%"
 
     function setArcLength(percent) {
       const arcLength = percent / 100 * circumference

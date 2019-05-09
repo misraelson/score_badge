@@ -1,11 +1,13 @@
 .accuracy-badge {
   display: flex;
   justify-content: center;
+  padding: 2em;
 }
 
 svg {
   height: 400px;
   width: 400px;
+  overflow: visible;
 }
 circle {
   stroke-width: 6px;
