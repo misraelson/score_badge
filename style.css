@@ -1,12 +1,12 @@
 .accuracy-badge {
   display: flex;
   justify-content: center;
-  padding: 2em;
+  padding: 20px;
 }
 
 svg {
-  height: 400px;
-  width: 400px;
+  height: 90%; /* to change size of badge, change these values  */
+  width: 90%;
   overflow: visible;
 }
 circle {
@@ -16,17 +16,6 @@ circle {
   transform: rotate(-90deg);
   transform-origin: 50% 50%;
 }
-/* #inner-ring {
-  stroke: #AAA;
-  stroke-width: 2px;
-} */
-/* #outer-ring {
-  stroke: #AAA;
-  stroke-width: 2px;
-}
-#gray{
-  stroke: #AAA;
-} */
 
 #under-amount-blue {
   stroke: blue;

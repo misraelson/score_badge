@@ -14,6 +14,7 @@ window.addEventListener('load', drawBadge, false);
 
     const radius = amountCircle.r.baseVal.value;
     const circumference = radius * 2 * Math.PI;
+    
     const amountWeight = 45;
     const exDateWeight = 30;
     const recDateWeight = 20;
