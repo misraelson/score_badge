@@ -26,22 +26,36 @@ circle {
   stroke: #AAA;
 } */
 
-#under-amount-blue{
+#under-amount-blue {
   stroke: blue;
   stroke-width: 8px;
   opacity: 0.2;
-  transition: stroke-dasharray 2.55s;
 }
-#amount-blue{
+#under-ex-date-red {
+  stroke: red;
+  stroke-width: 8px;
+  opacity: 0.2;
+}
+#under-record-date-yellow {
+  stroke: yellow;
+  stroke-width: 8px;
+  opacity: 0.3;
+}
+#under-pay-date-green {
+  stroke: green;
+  stroke-width: 8px;
+  opacity: 0.2;
+}
+#amount-blue {
   stroke: blue;
   transition: stroke-dasharray 2.55s;
 }
-#ex-date-red{
+#ex-date-red {
   stroke: red;
 }
-#record-date-yellow{
+#record-date-yellow {
   stroke: yellow;
 }
-#pay-date-green{
+#pay-date-green {
   stroke: green;
 }
