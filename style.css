@@ -14,11 +14,27 @@ circle {
   transform: rotate(-90deg);
   transform-origin: 50% 50%;
 }
+/* #inner-ring {
+  stroke: #AAA;
+  stroke-width: 2px;
+} */
+/* #outer-ring {
+  stroke: #AAA;
+  stroke-width: 2px;
+}
 #gray{
   stroke: #AAA;
+} */
+
+#under-amount-blue{
+  stroke: blue;
+  stroke-width: 8px;
+  opacity: 0.2;
+  transition: stroke-dasharray 2.55s;
 }
 #amount-blue{
   stroke: blue;
+  transition: stroke-dasharray 2.55s;
 }
 #ex-date-red{
   stroke: red;
