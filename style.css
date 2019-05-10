@@ -5,8 +5,8 @@
 }
 
 svg {
-  height: 90%; /* to change size of badge, change these values  */
-  width: 90%;
+  height: 50%; /* to change size of badge, change these values  */
+  width: 50%;
   overflow: visible;
 }
 circle {

@@ -4,26 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>DAILY ACCURACY SCORE</title>
+  <title>DAILY ACCURACY SCORE BADGE</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
   <script type="text/javascript" src="badge.js"></script>
 </head>
 <body>
-  <div class="accuracy-badge">
+  <div class="accuracy-badge" data-total-score='98' data-amount='75' data-ex-date="85" data-rec-date="50" data-pay-date="65">
     <svg viewBox='0 0 100 100'>
-      <!-- <circle id='gray' cx='50' cy='50' r='45'/>
-      <circle id='inner-ring' cx='50' cy='50' r='42'/>
-      <circle id='outer-ring' cx='50' cy='50' r='48'/> -->
+      <!-- RINGS UNDERNEATH THE SCORES -->
       <circle id='under-amount-blue' cx='50%' cy='50%' r='45'/>
       <circle id='under-ex-date-red' cx='50%' cy='50%' r='45'/>
       <circle id='under-record-date-yellow' cx='50%' cy='50%' r='45'/>
       <circle id='under-pay-date-green' cx='50%' cy='50%' r='45'/>
-
+      <!-- SCORE BARS -->
       <circle id='amount-blue' cx='50%' cy='50%' r='45'/>
       <circle id='ex-date-red' cx='50%' cy='50%' r='45' />
       <circle id='record-date-yellow' cx='50%' cy='50%' r='45' />
       <circle id='pay-date-green'cx='50%' cy='50%' r='45' />
-      <text x="37" y="55" id="percentage">Total Accuracy Score</text>
+      <!-- TOTAL ACCURACY SCORE TEXT -->
+      <text x="37" y="55" id="percentage"></text>
+      <!-- TEXT AROUND THE OUTSIDE -->
       <path id="multiarc" d="M 50 0 A 45 45, 0 0 1, 50 100" fill="none"/>
       <text dx="60" dy="0" font-size="5">
         <textPath id="multiarcText" href="#multiarc" aria-label="Smashing">
@@ -43,11 +43,12 @@
         </textPath>
       </text>
       <path id="multiarc4" d="M 0 50 A 45 45, 0 0 1, 100 50" fill="none"/>
-      <text dx="60" dy="0" font-size="5">
+      <text dx="61" dy="0" font-size="5">
         <textPath id="multiarcText3" href="#multiarc4" aria-label="Smashing">
           Pay Date
         </textPath>
       </text>
+      <!-- END OF TEXT -->
     </svg>
   </div>
 </body>
