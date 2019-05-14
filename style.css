@@ -4,7 +4,7 @@
   align-items: center;
   height: 400px;
   padding: 30px;
-  background-color: lightcyan; /* added to see the transparency of background */
+  background-color: transparent;
 }
 
 svg {
@@ -42,7 +42,6 @@ circle {
 }
 #amount-blue {
   stroke: blue;
-  transition: stroke-dasharray 2.55s;
 }
 #ex-date-red {
   stroke: red;
