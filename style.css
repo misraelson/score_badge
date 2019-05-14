@@ -1,16 +1,19 @@
 .accuracy-badge {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  align-items: center;
+  height: 400px;
+  padding: 30px;
+  background-color: lightcyan; /* added to see the transparency of background */
 }
 
 svg {
-  height: 50%; /* to change size of badge, change these values  */
-  width: 50%;
+  height: 100%; /* to change size of badge, change these values  */
+  width: 100%;
   overflow: visible;
 }
 circle {
-  stroke-width: 6px;
+  stroke-width: 16px;
   fill: transparent;
   transition: stroke-dashoffset 2.55s;
   transform: rotate(-90deg);
@@ -19,22 +22,22 @@ circle {
 
 #under-amount-blue {
   stroke: blue;
-  stroke-width: 8px;
+  stroke-width: 20px;
   opacity: 0.2;
 }
 #under-ex-date-red {
   stroke: red;
-  stroke-width: 8px;
+  stroke-width: 20px;
   opacity: 0.2;
 }
 #under-record-date-yellow {
   stroke: yellow;
-  stroke-width: 8px;
+  stroke-width: 20px;
   opacity: 0.3;
 }
 #under-pay-date-green {
   stroke: green;
-  stroke-width: 8px;
+  stroke-width: 20px;
   opacity: 0.2;
 }
 #amount-blue {
