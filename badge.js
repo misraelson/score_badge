@@ -2,32 +2,27 @@ window.addEventListener('load', drawBadge, false);
 
 function drawBadge() {
 
-  // function insertHtml() {
-  //   document.querySelector('.accuracy-badge').insertAdjacentHTML(
-  //     'afterbegin',
-  //     `<svg viewBox='0 0 100 100'>
-  //       <style>
-  //         circle {
-  //           transition: stroke-dashoffset 2.55s;
-  //         }
-  //       </style>
-  //       <!-- RINGS UNDERNEATH THE SCORES -->
-  //       <circle id='under-amount-blue' cx='50%' cy='50%' r='45'/>
-  //       <circle id='under-ex-date-red' cx='50%' cy='50%' r='45'/>
-  //       <circle id='under-record-date-yellow' cx='50%' cy='50%' r='45'/>
-  //       <circle id='under-pay-date-green' cx='50%' cy='50%' r='45'/>
-  //       <!-- SCORE BARS -->
-  //       <circle id='amount-blue' cx='50%' cy='50%' r='45'/>
-  //       <circle id='ex-date-red' cx='50%' cy='50%' r='45' />
-  //       <circle id='record-date-yellow' cx='50%' cy='50%' r='45' />
-  //       <circle id='pay-date-green'cx='50%' cy='50%' r='45' />
-  //       <!-- TOTAL ACCURACY SCORE TEXT -->
-  //       <text x="37" y="55" id="percentage"></text>
-  //     </svg>`
-  //   )
-  // }
+  function insertHtml() {
+    document.querySelector('.accuracy-badge').insertAdjacentHTML(
+      'afterbegin',
+      `<svg viewBox='0 0 100 100'>
+        <!-- RINGS UNDERNEATH THE SCORES -->
+        <circle id='under-amount-blue' cx='50%' cy='50%' r='45'/>
+        <circle id='under-ex-date-red' cx='50%' cy='50%' r='45'/>
+        <circle id='under-record-date-yellow' cx='50%' cy='50%' r='45'/>
+        <circle id='under-pay-date-green' cx='50%' cy='50%' r='45'/>
+        <!-- SCORE BARS -->
+        <circle id='amount-blue' cx='50%' cy='50%' r='45'/>
+        <circle id='ex-date-red' cx='50%' cy='50%' r='45' />
+        <circle id='record-date-yellow' cx='50%' cy='50%' r='45' />
+        <circle id='pay-date-green'cx='50%' cy='50%' r='45' />
+        <!-- TOTAL ACCURACY SCORE TEXT -->
+        <text x="37" y="55" id="percentage"></text>
+      </svg>`
+    )
+  }
 
-  // insertHtml()
+  insertHtml()
 
   const underAmountCircle = document.querySelector('#under-amount-blue');
   const underExDateCircle = document.querySelector('#under-ex-date-red');

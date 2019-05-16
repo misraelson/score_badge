@@ -21,24 +21,24 @@ circle {
 }
 
 #under-amount-blue {
-  stroke: blue;
+  stroke: white;
   stroke-width: 20px;
-  opacity: 0.2;
+  /* opacity: 0.2; */
 }
 #under-ex-date-red {
-  stroke: red;
+  stroke: white;
   stroke-width: 20px;
-  opacity: 0.2;
+  /* opacity: 0.2; */
 }
 #under-record-date-yellow {
-  stroke: yellow;
+  stroke: white;
   stroke-width: 20px;
-  opacity: 0.3;
+  /* opacity: 0.3; */
 }
 #under-pay-date-green {
-  stroke: green;
+  stroke: white;
   stroke-width: 20px;
-  opacity: 0.2;
+  /* opacity: 0.2; */
 }
 #amount-blue {
   stroke: blue;
