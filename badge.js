@@ -83,6 +83,11 @@ function drawBadge() {
   recordDateCircle.style.strokeDasharray = `${setScorePercent(recScorePercent, setArcLength(recDateWeight))} ${circumference}`;
   payDateCircle.style.strokeDasharray = `${setScorePercent(payScorePercent, setArcLength(payDateWeight))} ${circumference}`;
   
+  window.getComputedStyle(amountCircle).strokeDashoffset;
+  window.getComputedStyle(exDateCircle).strokeDashoffset;
+  window.getComputedStyle(recordDateCircle).strokeDashoffset;
+  window.getComputedStyle(payDateCircle).strokeDashoffset;
+
   // score circles set stroke-dash-offset
   amountCircle.style.strokeDashoffset = 0;
   exDateCircle.style.strokeDashoffset = -setArcLength(amountWeight);
